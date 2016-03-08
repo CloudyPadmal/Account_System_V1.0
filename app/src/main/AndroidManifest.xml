@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.padmal.accountsystemv10" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/update"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:typeface="monospace"
+        android:backupAgent="BackupHelper">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".NewRecordEntry"
+            android:label="@string/title_activity_new_record_entry" >
+        </activity>
+
+        <activity
+            android:name=".NewCategoryEntry"
+            android:label="@string/title_activity_new_category_entry" >
+        </activity>
+
+        <activity
+            android:name=".ViewSummary"
+            android:label="@string/title_activity_view_summary" >
+        </activity>
+
+        <activity
+            android:name=".ViewRecord"
+            android:label="@string/title_activity_delete_record" >
+        </activity>
+
+        <activity
+            android:name=".ViewCategories"
+            android:label="@string/title_activity_view_category_summary" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAISyv0xsNPUiJI5N1h9xHamS6K_YXOae6frfJATw" />
+
+    </application>
+
+</manifest>

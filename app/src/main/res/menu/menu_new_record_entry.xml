@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.padmal.accountsystemv10.NewRecordEntry">
+
+    <item
+        android:id="@+id/new_record_entry_new_cat"
+        android:title="Add New Category"
+        android:orderInCategory="100"/>
+    <item
+        android:id="@+id/new_record_entry_view_cat_summary"
+        android:title="Browse Categories"
+        android:orderInCategory="200"/>
+</menu>

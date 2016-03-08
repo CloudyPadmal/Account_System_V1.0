@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/New_Record_Entry_Menu"
+        android:title="@string/New_Entry"
+        android:orderInCategory="100" />
+
+    <item
+        android:id="@+id/New_Category_Entry_Menu"
+        android:title="@string/New_Category"
+        android:orderInCategory="200"/>
+
+    <item
+        android:id="@+id/View_Record_Menu"
+        android:title="@string/View_Records"
+        android:orderInCategory="300" />
+
+    <item
+        android:id="@+id/View_Category_Menu"
+        android:title="@string/View_Categories"
+        android:orderInCategory="400"/>
+
+    <item
+        android:id="@+id/View_Summary_Menu"
+        android:title="@string/View_Summary"
+        android:orderInCategory="500"/>
+
+</menu>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Account System v1.1</string>
+
+    <string name="title_activity_new_record_entry">New Record Entry</string>
+    <string name="title_activity_new_category_entry">New Category Entry</string>
+    <string name="title_activity_view_summary">View Summary</string>
+    <string name="title_activity_delete_record">View Records</string>
+    <string name="title_activity_view_category_summary">View Categories</string>
+
+    <string name="buttonclear">Clear</string>
+
+    <string name="labeltype">Type</string>
+    <string name="labelcategory">Category</string>
+    <string name="labeldescription">Description</string>
+
+    <string name="New_Entry">New Entry</string>
+    <string name="New_Category">New Category</string>
+    <string name="View_Records">View Records</string>
+    <string name="View_Categories">View Categories</string>
+    <string name="View_Summary">View Summary</string>
+
+</resources>
